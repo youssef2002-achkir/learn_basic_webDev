@@ -1,0 +1,61 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.Pimg1, .Pimg2, .Pimg3{
+    position: relative;
+    opacity: 1.0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Pimg1{
+    background-image: url('Pimg1.jpg');
+    min-height: 100%;
+    
+}
+
+.Pimg2{
+    background-image: url('Pimg2.jpg');
+    min-height: 400px;
+    
+}
+
+.Pimg3{
+    background-image: url('Pimg3.jpg');
+    min-height: 400px;
+    
+}
+
+h2{
+    position: relative;
+    left: 45%;
+}
+span{
+    width: 130px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: brown;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    
+}
+
+.section-light{
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+.section-Dark{
+    background-color: black;
+    overflow: hidden;
+}

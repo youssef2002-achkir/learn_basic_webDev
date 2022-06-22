@@ -1,0 +1,332 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 183, 255);
+    column-count: 24;
+}
+.top .img {
+    width: 50px;
+    height: 100%;
+    border-radius: 100px;}
+
+.top .img a img {
+    width: 50px;
+    height: 100%;
+    border-radius: 100px;
+}
+.top .img2 {
+    width: 50px;
+    height: 100%;
+    border-radius: 100px;
+}
+.top .img2 a img {
+    width: 50px;
+    height: 100%;
+    border-radius: 100px;
+}
+.top .img3 a img {
+    width: 50px;
+    height: 100%;
+    border-radius: 100px;
+}
+.top .img4 a img {
+    width: 50px;
+    height: 100%;
+    border-radius: 100px;
+}
+.top .img5{
+    width: 100px;
+    height: 100%;
+    position: relative;
+    left: 2557%;
+}
+.top .img5 img{
+    width: 100px;
+    height: 100%;
+}
+.middle{
+    width: 19%;
+    height: 600px;
+    background-color: white;
+    border-style: ridge;
+    box-shadow: grey;
+
+}
+.middle a{
+    color: black;
+    text-decoration: none;
+}
+.middle h4{
+    position: relative;
+    left: 2%;
+}
+.middle ul{
+    list-style-type:circle;
+}
+.mmain{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    left: 19.6%;
+    bottom: 606px;
+}
+.mmain .top{
+    width: 100%;
+    height: 45px;
+    background-color: grey;
+}
+.mmain .main{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    column-count: 4;
+}
+.mmain .main .card{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+    border-top-style: groove;
+    border-right-style: groove;
+    border-radius: 10px;
+}
+.mmain .main .card strong{
+    position: relative;
+    left: 25px;
+    bottom: 40px;
+    font-family: fantasy;
+}
+.mmain .main .card .img{
+    width: 40%;
+    height: 80%;
+    position: relative;
+    bottom: -10px;
+    left: 52%;
+    border-radius: 5px;
+}
+
+.mmain .main .card .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.mmain .main .card2{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+    border-top-style: groove;
+    border-right-style: groove;
+    border-radius: 10px;
+}
+.mmain .main .card2 strong{
+    position: relative;
+    left: 25px;
+    bottom: 40px;
+    font-family: fantasy;
+}
+
+.mmain .main .card2 .img{
+    width: 40%;
+    height: 80%;
+    position: relative;
+    bottom: -10px;
+    left: 52%;
+    border-radius: 5px;
+}
+.mmain .main .card2 .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.mmain .main .card3{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+    border-top-style: groove;
+    border-left-style: groove;
+    border-radius: 10px;
+}
+.mmain .main .card3 strong{
+    position: relative;
+    left: 25px;
+    bottom: 40px;
+    font-family: fantasy;
+}
+.mmain .main .card3 .img{
+    width: 40%;
+    height: 80%;
+    position: relative;
+    bottom: -10px;
+    left: 52%;
+    border-radius: 5px;
+}
+.mmain .main .card3 .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.mmain .main .card4{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-top-style: groove;
+    border-right-style: groove;
+    border-radius: 10px;
+}
+.mmain .main .card4 strong{
+    position: relative;
+    left: 25px;
+    bottom: 40px;
+    font-family: fantasy;
+}
+.mmain .main .card4 .img{
+    width: 40%;
+    height: 80%;
+    position: relative;
+    bottom: -10px;
+    left: 52%;
+    border-radius: 5px;
+}
+.mmain .main .card4 .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.mmain p{
+    background-color: grey;
+    border-color: grey;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+.mmain .footer{
+    width: 60%;
+    height: 298px;
+    background-color: tomato;
+}
+.mmain .footer .img{
+    width: 32%;
+    height: 60%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.mmain .footer .img img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#fr{
+    background-color: red;
+    color: white;
+    border-style: ridge;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 36%;
+    bottom: 150px;
+}
+#sc{
+    background-color: green;
+    color: white;
+    border-style: ridge;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 36%;
+    bottom: 150px;
+}
+#th{
+    background-color: blue;
+    color: white;
+    border-style: ridge;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 36%;
+    bottom: 150px;
+}
+.mmain .footer .txt{
+    background-color: tomato;
+    width:60%;
+    height:40%;
+    position: relative;
+    left: 36.2%;
+    bottom: 130px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.mmain .footer .images{
+    width: 100%;
+    height: 50px;
+    column-count: 8;
+    position: relative;
+    bottom: 71px;
+}
+.mmain .footer .images img{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+.mmain .footer .images img:hover{
+    border-radius:0%;
+}
+.mmain .side{
+    width: 39.9%;
+    height: 360px;
+    background-color: wheat;
+    position: relative;
+    left: 60.1%;
+    bottom: 360px;
+}
+.com{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.com img{
+    width: 100%;
+    height: 100%;
+}
+.but{
+    width: 100%;
+    height: 400px;
+    background-color: teal;
+}
+.but a{
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-indent: -9999px;
+    margin: 5px;
+    cursor: pointer;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+#pink{
+    background-color: pink;
+}
+#black{
+    background-color: black;
+}
+
+
+
+

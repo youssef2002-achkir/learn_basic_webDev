@@ -1,0 +1,21 @@
+html{
+    background-color: khaki;
+}
+body{
+    width: 80%;
+    height: 100%;
+    background-color: lavender;
+    padding: 20px;
+
+}
+h1{
+    position: relative;
+    left: 120px;
+}
+
+input[type = "text"]{
+    opacity: 0.5;
+}
+input[type = "email"]{
+    opacity: 0.5;
+}

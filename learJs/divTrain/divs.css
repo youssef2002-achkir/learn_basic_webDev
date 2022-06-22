@@ -1,0 +1,95 @@
+html{
+    background-image: radial-gradient(circle at 2.1% 4%,pink 0%,deeppink 90%);
+}
+div{
+    float: left;
+}
+
+.img1{
+    width: 120px;
+    height: 100px;
+    background-color: indigo;
+    border-radius: 8px;
+}
+.img1 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+}
+.img2{
+    width: 120px;
+    height: 100px;
+    background-color: red;
+    border-radius: 8px;
+}
+.img2 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+}
+.img3{
+    width: 120px;
+    height: 100px;
+    background-color: green;
+    border-radius: 8px;
+}
+.img3 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+}
+.img4{
+    width: 120px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 8px;
+}
+.img4 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+}
+.img5{
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    border-radius: 8px;
+}
+.img5 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+}
+.img6{
+    width: 120px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 8px;
+}
+.img6 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+}
+.img7{
+    width: 120px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 8px;
+}
+.img7 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+}
+.img8{
+    width: 120px;
+    height: 100px;
+    background-color: black;
+    border-radius: 8px;
+}
+.img8 img{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+}

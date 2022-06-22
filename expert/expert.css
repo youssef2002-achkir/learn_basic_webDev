@@ -1,0 +1,455 @@
+html{
+    background-image: radial-gradient(circle 602px at 50% 50%,rgba(233,0,120,1) 0%,rgb(39, 2, 20) 90.1%);
+    background-repeat: no-repeat;
+}
+body{
+    align-content: space-between;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: rgb(124, 16, 16);
+    box-shadow: 0 6px 10px rgba(179, 179, 179, 0.616);
+    border-radius: 12px;
+  }
+ #nav {
+    display: block;
+    width: 102px;
+    height: 2px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: yellowgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+} 
+.slide{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width:100%;
+        height: 4px;
+        background: #3641b7;
+        transition: 4s;
+    }
+ul{
+      display: flex;
+    }
+li{
+     list-style: none;
+    }
+.POLYGON{
+    /*background-color: thistle;*/
+    column-count: 3;
+}
+
+.POLYGON .polygon{
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(circle 602px at 50% 50%,rgb(59, 59, 185) 0%,rgb(39, 2, 20) 90.1%);
+    border-radius: 120px;
+    text-align: center;
+}
+.POLYGON .polygon .fbsm{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    margin-left: 125px;
+    text-align: center;
+    border-radius: 10px;
+}
+.POLYGON .polygon .fbsm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    line-height: 30px;
+}
+.POLYGON .polygon .info i{
+    font-size: 20px;
+    color: white;
+}
+.POLYGON .polygon .info input[type="email"]{
+    width: 200px;
+    height: 40px;
+    opacity: 0.5;
+}
+.POLYGON .polygon .info input[type="password"]{
+    width: 200px;
+    height: 40px;
+    margin-right: 26px;
+    opacity: 0.8;
+}
+.POLYGON .polygon .verify{
+    width: 300px;
+    border: none;
+    margin-left: 70px;
+}
+.POLYGON .polygon .verify input[type="submit"]{
+    color:black;
+    font-family: fantasy;
+    background-color: blue;
+}
+.POLYGON .polygon .verify input[type="submit"]:hover{
+     background-color: lawngreen;
+}
+.POLYGON .polygon .verify select{
+    columns: black;
+    background-color: blue;
+    font-family: fantasy;
+}
+.POLYGON .polygon .verify a{
+    color: cornsilk;
+}
+
+
+
+
+.POLYGON .polygon2{
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(circle 602px at 50% 50%,rgb(141, 56, 56) 0%,rgb(39, 2, 20) 90.1%);
+    border-radius: 120px;
+    text-align: center;
+}
+.POLYGON .polygon2 .insm{
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+    margin-left: 125px;
+    text-align: center;
+    border-radius: 10px;
+}
+.POLYGON .polygon2 .insm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.POLYGON .polygon2 .info i{
+    font-size: 20px;
+    color: black;
+}
+.POLYGON .polygon2 .info input[type="email"]{
+    width: 200px;
+    height: 40px;
+    opacity: 0.5;
+}
+.POLYGON .polygon2 .info input[type="password"]{
+    width: 200px;
+    height: 40px;
+    margin-right: 26px;
+    opacity: 0.8;
+}
+.POLYGON .polygon2 .verify{
+    width: 300px;
+    border: none;
+    margin-left: 70px;
+}
+.POLYGON .polygon2 .verify input[type="submit"]{
+    color:black;
+    font-family: fantasy;
+    background-color: brown;
+}
+.POLYGON .polygon2 .verify select{
+    columns: black;
+    background-color: brown;
+    font-family: fantasy;
+}
+.POLYGON .polygon2 .verify a{
+    color: cornsilk;
+}
+
+.POLYGON .polygon3{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 120px;
+    text-align: center;
+}
+.POLYGON .polygon3 .twsm{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(78, 78, 223);
+    margin-left: 125px;
+    text-align: center;
+    border-radius: 10px;
+}
+.POLYGON .polygon3 .twsm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.POLYGON .polygon3 .info i{
+    font-size: 20px;
+    color: black;
+}
+.POLYGON .polygon3 .info input[type="email"]{
+    width: 200px;
+    height: 40px;
+    opacity: 0.5;
+}
+.POLYGON .polygon3 .info input[type="password"]{
+    width: 200px;
+    height: 40px;
+    margin-right: 26px;
+    opacity: 0.8;
+}
+.POLYGON .polygon3 .verify{
+    width: 300px;
+    border: none;
+    margin-left: 70px;
+}
+.POLYGON .polygon3 .verify input[type="submit"]{
+    color:black;
+    font-family: fantasy;
+    background-color:dodgerblue;
+}
+.POLYGON .polygon3 .verify select{
+    columns: black;
+    background-color: dodgerblue;
+    font-family: fantasy;
+}
+.POLYGON .polygon3 .verify a{
+    color: dodgerblue;
+}
+.polygon .polygon2 .polygon3{
+    display: inline;
+}
+
+.box{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(88, 11, 88, 0.87);
+    border-radius: 30px;
+    text-align: center;
+}
+.box .img{
+    width: 300px;
+    height: 300px;
+    padding: 50px 50px;
+    border-radius: 1000px;
+    float: right;
+}
+.box .img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+}
+.box .img h3{
+    border-radius: 50px;
+    font-family: fantasy;
+    color: orange;
+    width: 100%;
+}
+.box .twsm{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(78, 78, 223);
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    left:60% ;
+    bottom: 40px;
+}
+.box .twsm:hover{
+    background-color: blueviolet;
+    transform: scale(2,2);
+}
+.box .twsm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.box .insm{
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -140px;
+    left: 60%; 
+}
+.box .insm:hover{
+    background-color: crimson;
+    transform: scale(2,2);
+}
+.box .insm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.box .fbsm{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -50px;
+    left: 60%;
+    
+}
+.box .fbsm:hover{
+    background-color: chartreuse;
+    transform: scale(2,2);
+}
+.box .fbsm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    line-height: 30px;
+}
+.box .text{
+    background-color: orange;
+    background-color: hsl(45, 20%, 60%);
+    width: 50%;
+    position: absolute;
+    bottom: -50px;
+    left: 5%;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.6;
+
+}
+.box .text article{
+    color: white;
+    text-decoration: blink;
+    word-spacing: 2px;
+}
+
+
+.box2{
+    width: 100%;
+    height: 400px;
+    align-content: center;
+    background-color:rgb(151, 151, 14);
+    border-radius: 20px;
+}
+.box2 .img{
+    width: 300px;
+    height: 300px;
+    padding: 50px 50px;
+    border-radius: 1000px;
+    float: right;
+}
+.box2 .img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+}
+.box2 .img h3{
+    border-radius: 50px;
+    font-family: fantasy;
+    color: black;
+    width: 100%;
+}
+.box2 .twsm{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(78, 78, 223);
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    left:60% ;
+    bottom: -70px;
+}
+.box2 .twsm:hover{
+    background-color: blueviolet;
+    transform: scale(2,2);
+}
+.box2 .twsm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.box2 .insm{
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    bottom: -200px;
+    left: 60%; 
+}
+.box2 .insm:hover{
+    background-color: crimson;
+    transform: scale(2,2);
+}
+.box2 .insm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.box2 .fbsm{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    bottom: -30px;
+    left: 60%;
+    
+}
+.box2 .fbsm:hover{
+    background-color: chartreuse;
+    transform: scale(2,2);
+}
+.box2 .fbsm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    line-height: 30px;
+}
+.box2 .text{
+    background-color: orange;
+    background-color: hsl(45, 20%, 60%);
+    width: 50%;
+    position: relative;
+    bottom: -186px;
+    left: 5%;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.6;
+
+}
+.box2 .text article{
+    color: white;
+    text-decoration: blink;
+    word-spacing: 2px;
+}
+
+
+
+
+
+.box3{
+    width: 100%;
+    height: 400px;
+    align-content: center;
+    background-color: rgb(7, 105, 105);
+    border-radius: 20px;
+}
+.box3 .img{
+    width: 300px;
+    height: 300px;
+    padding: 50px 50px;
+    border-radius: 1000px;
+}
+.box3 .img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+}
+.box3 .img h3{
+    border-radius: 50px;
+    font-family: fantasy;
+    color: white;
+    width: 100%;
+}
+
+
+
+

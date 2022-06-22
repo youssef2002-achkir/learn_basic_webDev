@@ -1,0 +1,52 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle 602px at 2.1% 5.1%,rgba(233,0,120,1) 0%,rgba(0,0,0,1) 90.1%);
+}
+
+.card{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    border-radius: 5px;
+    background-position: center;
+    justify-content: center;
+}
+
+.card img{
+    height: 100px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(255,255,255,0.4);
+}
+
+.card .content{
+    color: #ffffff;
+}
+
+.controlls{
+    margin: 10px 10px;
+}
+
+.controlls a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.controlls .fa{
+    color: #ffffff;
+    height: 60px;
+}

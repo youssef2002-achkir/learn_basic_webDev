@@ -1,0 +1,85 @@
+html{
+    background-image: radial-gradient(circle 602px at 50% 50%,rgba(233,0,120,1) 0%,rgb(39, 2, 20) 90.1%);;
+}
+body{
+    align-content: space-between;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: rgb(142, 122, 122);
+    border-radius: 12px;
+  }
+
+  ul{
+    display: flex;
+  }
+
+  #nav {
+    display: block;
+    width: 116px;
+    height: 2px;
+    text-align: center;
+    line-height: 50px;
+    color: skyblue;
+    font-size: 19px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.login{
+    position: absolute;
+    left: 43%;
+    top: 40%;
+}
+
+#user, #pass{
+    display: grid;
+}
+
+#U, #P{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#U:hover, #P:hover{
+    color: aqua;
+    transition: 0,6s;
+    
+}
+
+input[type="text"]{
+    height: 20px;
+    line-height: 20px;
+    width: 200px;
+    border-radius: 6px;
+    box-shadow: gray;
+}
+
+#Red{
+    background-color:Red;
+    width: 50px;
+    height: 50px;
+}
+#Black{
+    background-color:black;
+    width: 50px;
+    height: 50px;
+}
+#Green{
+    background-color:green;
+    width: 50px;
+    height: 50px;
+}
+#Yellow{
+    background-color:yellow;
+    width: 50px;
+    height: 50px;
+}
+
+

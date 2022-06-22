@@ -1,0 +1,211 @@
+body{
+    background-color: white;
+}
+.logo1{
+    width: 250px;
+    height: 250px;
+    background-color: tomato;
+    position: absolute;
+    left: 10px;
+    top: 180px;
+}
+.footer{
+    width: 50px;
+    height: 250px;
+    background-color: skyblue;
+    position: absolute;
+    left: 70%;
+    border-radius: 20px;
+}
+.header{
+
+    width: 105px;
+    height: 40px;
+    background-color: skyblue;
+    position: absolute;
+    left: 28%;
+    top: 90px;
+    border-radius: 15px;
+}
+.main{
+    width: 50px;
+    height: 130px;
+    background-color: skyblue;
+    position: absolute;
+    left: 8%;
+    border-radius: 15px;
+}
+.logo2{
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+    position: absolute;
+    left: 270px;
+    top: 180px;
+    border: 4px solid darkgoldenrod
+}
+.footer1{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.footer2{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    top: 200px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer3{
+    width: 30px;
+    height:30px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    border-radius: 50%;
+}
+p{
+    z-index: 1;
+    font-family: fantasy;
+    font-size: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: -26px;
+    left: 6px;
+    color: crimson;
+}
+.footer4{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+}
+.footer5{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+}
+.footer6{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    
+}
+.footer7{
+
+    width: 30px;
+    height:30px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    box-shadow: -60px 0 0 darkgoldenrod;
+    border-radius: 50%;
+}
+.footer8{
+
+    width: 30px;
+    height:30px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    box-shadow: -120px 0 0 darkgoldenrod;
+    border-radius: 50%;
+}
+.footer9{
+
+    width: 30px;
+    height:30px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+    box-shadow: -180px 0 0 darkgoldenrod;
+    border-radius: 50%;
+}
+
+
+
+
+.signature{
+    width: 110px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    border-radius: 10px;
+}
+.line{
+    width: 10px;
+    height: 22px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 180px;
+    border-radius: 10px;
+}
+.lines{
+    width: 10px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    left: 60%;
+    top: 180px;
+    border-radius: 10px;
+}
+.lines2{
+    width: 18px;
+    height: 10px;
+    position: absolute;
+    top: 230px;
+    left: 54%;
+    background-color: black;
+    border-radius: 10px;
+}
+.line2{
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 70%;
+    top: 180px;
+    border-radius: 10px;
+}
+.line3{
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 80%;
+    top: 180px;
+    border-radius: 10px;
+}
+.line4{
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 90%;
+    top: 180px;
+    border-radius: 10px;
+}

@@ -1,0 +1,67 @@
+body{
+ 
+    background-color: azure;
+}
+
+#whatssappUI{
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    left: 400px;
+}
+
+#child-1{
+    background-color: darkgreen;
+    width: 600px;
+    height: 80px;
+}
+
+#title{
+    color: white;
+    font-family: fantasy sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+#whatssappUI input[type = 'search']{
+    border-style: none;
+    background-color: green;
+    width: 300px;
+    position: relative;
+    left: 40%;
+    top: -45px;
+
+}
+
+.menu{
+    width: 600px;
+    column-count: 4;
+    background-color: darkgreen;
+    height: 40px;
+}
+
+.menu p{
+    color: white;
+}
+
+#child-3{
+    background-color: tomato;
+    height: 680px;
+}
+
+#child-3 div{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+}
+
+#child-3 div>div{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 10px;
+
+}

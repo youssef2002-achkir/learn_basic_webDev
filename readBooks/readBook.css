@@ -1,0 +1,34 @@
+html body{
+    background-color: tomato;
+}
+
+h1{
+    background-color: violet;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+hr{
+    background-color: turquoise;
+    height: 5px;
+    
+}
+
+.main{
+    background-color: violet;
+    width: 98%;
+    height: 580px;
+    column-count: 3;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#child{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+}
+

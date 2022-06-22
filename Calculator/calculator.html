@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator monotory</title>
+    <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body>
+    <div class="numbers"><br>
+        <div class="ecran">
+            <input id="cell" type="text">
+
+        </div>
+        <button id="one" value="1" onclick="window.cell.value += '1'">1</button>
+        <button id="tow" value="2" onclick="window.cell.value += '2'">2</button>
+        <button id="three" value="3" onclick="window.cell.value += '3'">3</button>
+        <button id="four" value="4" onclick="window.cell.value += '4'">4</button><br><br>
+        <button id="five" value="5" onclick="window.cell.value += '5'">5</button>
+        <button id="six" value="6" onclick="window.cell.value += '6'">6</button>
+        <button id="seven" value="7" onclick="window.cell.value += '7'">7</button>
+        <button id="eight" value="8" onclick="window.cell.value += '8'">8</button><br><br>
+        <button id="nine" value="9" onclick="window.cell.value += '9'">9</button>
+        <button id="zero" value="0" onclick="window.cell.value += '0'">0</button>
+        <button id="plus" value="+" onclick="window.cell.value += '+'">+</button>
+        <button id="mines" value="-" onclick="window.cell.value += '-'">-</button><br><br>
+        <button id="multiplay" value="*" onclick="window.cell.value += '*'">*</button>
+        <button id="divise" value="/" onclick="window.cell.value += '/'">/</button>
+        <button id="equal" value="=" onclick=calc()>=</button>
+        <button id="reset" value="C" onclick=Res()>C</button><br><br>
+        <button id="arc1" value="(" onclick="window.cell.value += '(' ">(</button>
+        <button id="arc2" value=")" onclick="window.cell.value += ')' ">)</button>
+        <button id="DEL" value="DEL" onclick=dele()>DEL</button>
+        <button id="ANS" value="Ans" onclick=prans()>Ans</button>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
